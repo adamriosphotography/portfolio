@@ -8625,11 +8625,6 @@ input, select, textarea {
   color: black;
 }
 
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: white;
-  color: black;
-}
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
