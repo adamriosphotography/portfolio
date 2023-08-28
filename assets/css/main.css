@@ -8617,6 +8617,7 @@ input, select, textarea {
   padding: 10px 10px;
   text-decoration: none;
   font-size: 14px;
+  border-bottom: solid 1px white;
 
 }
 
@@ -8632,6 +8633,7 @@ input, select, textarea {
   .topnav a.icon {
     float: right;
     display: block;
+    border-bottom: solid 1px white;
   }
 }
 
@@ -8647,6 +8649,7 @@ input, select, textarea {
     float: none;
     display: block;
     text-align: left;
+    border-bottom: solid 1px white;
   }
 }
 
@@ -8654,6 +8657,7 @@ input, select, textarea {
 .topnav a.active {
   background-color: white;
   color: black;
+  border-bottom: solid 1px white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
