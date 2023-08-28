@@ -8605,14 +8605,14 @@ input, select, textarea {
 .topnav {
   background-color: #333;
   overflow: hidden;
-  border-bottom: solid 1px white;
+
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
