@@ -8605,6 +8605,7 @@ input, select, textarea {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  border-bottom: solid 1px white;
 
 }
 
