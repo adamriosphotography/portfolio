@@ -8657,37 +8657,33 @@ input, select, textarea {
   }
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+/* code from chatgpt */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    max-width: 100vw;
+    margin: 0 auto;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
 }
