@@ -8605,6 +8605,8 @@ input, select, textarea {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  border-right: solid 1px white;
+  border-left: solid 1px white;
 }
 
 /* Style the links inside the navigation bar */
@@ -8616,7 +8618,7 @@ input, select, textarea {
   padding: 10px 10px;
   text-decoration: none;
   font-size: 14px;
-  border-right: solid 1px white;
+
 }
 
 /* Change the color of links on hover */
@@ -8631,7 +8633,6 @@ input, select, textarea {
   .topnav a.icon {
     float: right;
     display: block;
-    border-bottom: solid 1px white;
     border-left: solid 1px white;
   }
 }
