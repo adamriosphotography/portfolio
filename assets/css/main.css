@@ -7869,8 +7869,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			border-style: solid;
-			border-left-width: 1px;
-			border-top-width: 1px;
+			border-width: 1px;
 		}
 
 		.items.style2.big > * {
