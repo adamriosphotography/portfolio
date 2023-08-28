@@ -8616,7 +8616,7 @@ input, select, textarea {
   padding: 10px 10px;
   text-decoration: none;
   font-size: 14px;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 
 /* Change the color of links on hover */
